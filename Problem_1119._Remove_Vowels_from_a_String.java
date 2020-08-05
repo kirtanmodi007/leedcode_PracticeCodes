@@ -2,6 +2,9 @@ Class Solution
 {
     public String removeVowels(String S) 
     {
+    //Time Complexity = O(n)
+    //Space Complexity = O(1)
+    //We can solve this question using hashsset as well.
         String abc = "";
         
         if(S.length() == 0)
